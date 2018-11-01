@@ -1,0 +1,42 @@
+
+
+/* this style exists to make it obvious that you've successfully linked
+   the CSS to the page. feel free to remove it once the link is working. */
+body {
+     border: 1px dotted gray;
+     padding: 20px;
+}
+
+
+.button {
+	background-color: maroon;
+	text-align: center;
+	display: inline-block;
+	font-size: 24px;
+}
+
+#list_item {
+	font-size: 20px;
+	font-family: Georgia;
+	color: maroon;
+}
+
+#ing_input {
+	font-size: 20px;
+}
+
+.jumbotron {
+	position: relative;
+	background: none;
+}
+.jumbotron:after {
+     content:"";
+     background: url("http://lorempixel.com/1140/283");
+     opacity: 0.2;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;
+}
