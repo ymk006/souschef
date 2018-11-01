@@ -6,14 +6,6 @@ $(document).ready(function() {
 })
 
 /*
- * Function that is called when the document is ready.
- */
-function initializePage() {
-	$("#testjs").click(function(e) {x
-		$('.jumbotron h1').text("Javascript is connected");
-	});
-}
-/*
 function addFunction() {
 	var x = document.getElementById("ing_input").value;
 	document.getElementById("data").innerHTML = x;
