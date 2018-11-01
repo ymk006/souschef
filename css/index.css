@@ -1,5 +1,17 @@
+body, html {
+	background-color: White;
+}
+
+img.button {
+	width: 150px;
+	height: 150px;
+	float: right;
+	margin-right: 25px;
+}
+
 .iconBar {
-	border-style: solid;
+	margin-top: 25px;
+	height: 150px;
 }
 
 .title {
@@ -9,7 +21,7 @@
 }
 
 .title h1 {
-	font-size: 400%;
+	font-size: 600%;
 }
 
 .row {
@@ -23,7 +35,7 @@
 	vertical-align: middle;
 	position: relative;
 	display: inline-block;
-	width: 30%;
+	width: 40%;
 	height: 50vw;
 	border-style: solid;
 	border-color: #000;
