@@ -3,15 +3,16 @@ body, html {
 }
 
 img.button {
-	width: 100px;
-	height: 100px;
+	width: auto;
+	height: 100%;
 	float: right;
 	margin-right: 25px;
 }
 
+
 .iconBar {
 	margin-top: 25px;
-	height: 100px;
+	height: 10vw;
 }
 
 .title {
@@ -50,8 +51,4 @@ img.button {
 .block h3 {
 	color: DarkCyan;
 	font-size: 150%
-}
-
-#block1 {
-
 }
