@@ -8,8 +8,12 @@ body {
 }
 
 
-.button {
-	background-color: maroon;
+#ing_input {
+	font-size: 24px;
+}
+
+#add {
+	color: maroon;
 	text-align: center;
 	display: inline-block;
 	font-size: 24px;
@@ -21,9 +25,7 @@ body {
 	color: maroon;
 }
 
-#ing_input {
-	font-size: 20px;
-}
+
 
 .jumbotron {
 	position: relative;
