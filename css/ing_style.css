@@ -40,9 +40,8 @@
 	color: maroon;
   display: inline-block;
   list-style-type: circle;
+  margin-left: -55%;
 
-  /*list-style-position: inside;
-  justify-content: flex-start;*/
 }
 /*
 #start {
