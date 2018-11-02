@@ -1,10 +1,19 @@
 
+.buttons {
+  text-align: center;
+  /*padding: 20px;*/
+}
+
 
 #ing_input {
 	font-size: 24px;
   border: none;
   outline: none;
   border-bottom: 2px solid black;
+  vertical-align: middle;
+  /*position: relative;
+  display: inline-block;*/
+  width: 50%;
 }
 
 #add {
@@ -17,6 +26,7 @@
   display: inline-block;
   transition-duration: 0.3s;
   /*padding: 16px 32px;*/
+  vertical-align: middle;
 }
 
 #add:hover {
@@ -28,4 +38,19 @@
 	font-size: 20px;
 	font-family: Georgia;
 	color: maroon;
+  display: inline-block;
+  list-style-type: circle;
+  position: absolute;
+  margin-left: -55%;
+  position: static;
+  /*list-style-position: inside;
+  justify-content: flex-start;*/
 }
+/*
+#start {
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  margin-bottom: 20px;
+
+}*/
