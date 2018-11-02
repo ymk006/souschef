@@ -60,10 +60,9 @@ margin-bottom: 20px;
 
 #start {
   display: inline-block;
-  /*
   position: fixed;
   bottom: 15px;
-  text-align: inherit;*/
+  margin-left: -9.5%;
 
 
   background-color: white;
