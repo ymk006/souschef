@@ -1,21 +1,29 @@
 
 .buttons {
   text-align: center;
-  margin-top: 65px;
+  /*margin-top: 40px;*/
   /*padding: 20px;*/
 }
 
 .logos {
-  border: solid;
+  margin-top: 25px;
 }
 
 .logos #home  {
   float: right;
   margin-right: 21%;
+  height: 44px;
 }
 
 .logos #profile {
   float: right;
+  height: 44px;
+  margin-right: 10px;
+}
+
+.logos #back {
+  height: 44px;
+  margin-left: 22%;
 }
 
 #ing_input {
