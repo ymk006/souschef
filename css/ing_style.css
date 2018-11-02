@@ -40,9 +40,7 @@
 	color: maroon;
   display: inline-block;
   list-style-type: circle;
-  position: absolute;
-  margin-left: -55%;
-  position: static;
+
   /*list-style-position: inside;
   justify-content: flex-start;*/
 }
