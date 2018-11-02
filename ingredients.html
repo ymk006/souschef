@@ -20,9 +20,12 @@
     <img src="img/profile-button.png" id="profile" />
   </a>
 
-  <a href="back" />
-    <img src="img/back-button.png" id="back" />
-  </a>
+  <button onclick="goBack()"><img src="img/back-button.png" id="back" /></button>
+  <script>
+    function goBack() {
+    window.history.back();
+    }
+  </script>
   </div>
 
   <br/> <br/>
